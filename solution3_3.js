@@ -2,6 +2,7 @@ function fn(args, name, cb) {
   console.log("Running " + name + " function and it will callback in " + args + "ms");
   setTimeout(function() {cb(null, args, name)}, args);
 } 
+
 /*
 var len = 5;
 var data = [];
@@ -13,6 +14,8 @@ for(var i=0; i<len; i++) {
 }
 console.log(data);
 */
+
+
 /*
  * Problem 3 
  *  The data can not be filled in 

@@ -9,7 +9,7 @@ var graph = {
 var queue = [];
 var children = [];
 
-queue.merge = function(l) {
+queue.__proto__.merge = function(l) {
   for(var i=0; i<l.length; i++) {
     queue.push(l[i]);
   }
@@ -38,13 +38,9 @@ function findAll(root, callback) {
   });
 }
 
-findSearch("e", function(c) {
+findSearch("a", function(c) {
   console.log(c);
 });
 
 
-/*
-graph.find("a", function(err, data) {
-  console.log(data);
-});
-*/
+

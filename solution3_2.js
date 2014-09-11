@@ -13,6 +13,8 @@ for(var i=0; i<len; i++) {
 }
 console.log(data);
 */
+
+
 /*
  * Problem 3 
  *  The data can not be filled in 
