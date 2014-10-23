@@ -1,3 +1,7 @@
+/*
+  Width-first search
+*/
+
 var graph = {
   "a": ["b", "c"],
   "b": ["d", "e", "f"],
